@@ -11,7 +11,7 @@ export function ContactStrip() {
 
         <div className="flex items-center gap-2 text-sm">
           <Mail className="h-4 w-4" />
-          <a href="mailto:info@rrmcleaning.co.uk">info@rrmcleaning.co.uk</a>
+          <a href="mailto:rrmexternalcleaning@gmail.com">rrmexternalcleaning@gmail.com</a>
         </div>
       </div>
     </div>

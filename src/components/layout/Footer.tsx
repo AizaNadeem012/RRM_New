@@ -54,11 +54,11 @@ export function Footer() {
               </a>
 
               <a
-                href="mailto:info@rrmcleaning.co.uk"
+                href="mailto:rrmexternalcleaning@gmail.com"
                 className="flex items-center gap-2 hover:text-[#E10600] transition-colors"
               >
                 <Mail className="h-4 w-4 text-[#E10600]" />
-                info@rrmcleaning.co.uk
+                rrmexternalcleaning@gmail.com
               </a>
 
               <div className="flex items-start gap-2">

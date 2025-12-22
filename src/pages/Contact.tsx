@@ -83,7 +83,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="mailto:info@rrmcleaning.co.uk"
+                  href="mailto:rrmexternalcleaning@gmail.com"
                   className="flex items-start gap-4 p-4 rounded-xl bg-card border border-border card-shadow hover:card-shadow-hover transition-all group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -91,7 +91,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
-                    <p className="text-primary font-medium">info@rrmcleaning.co.uk</p>
+                    <p className="text-primary font-medium">rrmexternalcleaning@gmail.com</p>
                     <p className="text-sm text-muted-foreground">We reply within 24 hours</p>
                   </div>
                 </a>

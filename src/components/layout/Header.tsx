@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Facebook, Instagram, Search } from "lucide-react";
+import { Menu, X, Facebook, Instagram, Search, Star } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -9,7 +9,6 @@ const navLinks = [
   { href: "/about", label: "About Us" },
   { href: "/services", label: "All Services" },
   { href: "/areas", label: "Service Areas" },
- 
   { href: "/contact", label: "Contact" },
 ];
 
@@ -33,7 +32,7 @@ export function Header() {
     >
       <div className="container mx-auto px-4">
 
-        {/* TOP BAR — PURE WHITE */}
+        {/* TOP BAR — PURE WHITE (hidden on mobile) */}
         <div className="hidden md:flex justify-between items-center py-2 bg-white text-gray-700 rounded-b-xl shadow-sm px-4">
           <div className="flex items-center gap-4">
             <a href="#" className="text-gray-600 hover:text-[#6A2FA3]">
@@ -57,7 +56,7 @@ export function Header() {
         {/* MAIN NAVBAR */}
         <div className="flex items-center justify-between h-16 md:h-20">
 
-          {/* LOGO — BIGGER NOW */}
+          {/* LOGO */}
           <Link to="/" className="flex items-center gap-3">
             <img
               src="/logo.webp"
@@ -84,7 +83,7 @@ export function Header() {
             ))}
           </nav>
 
-          {/* QUOTE BUTTON */}
+          {/* Desktop Buttons */}
           <div className="hidden md:flex items-center gap-3">
             <Button
               className="bg-gradient-to-r from-[#6A2FA3] to-[#8B45CC] text-white hover:scale-105 transition-transform shadow-lg"
@@ -92,7 +91,34 @@ export function Header() {
             >
               <Link to="/contact">Get Free Quote</Link>
             </Button>
+
+            <a
+              href="https://share.google/QUZ3caSgzonO6nfct"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-white text-gray-700 px-3 py-2 rounded-lg shadow hover:scale-105 transition-transform"
+            >
+              <img src="/google-logo.png" alt="Google" className="h-5 w-5 object-contain" />
+              <div className="flex items-center gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={16} className="text-yellow-400" />
+                ))}
+              </div>
+            </a>
           </div>
+
+          {/* MOBILE GOOGLE REVIEWS (visible next to hamburger) */}
+          <a
+            href="https://share.google/QUZ3caSgzonO6nfct"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 lg:hidden text-gray-700 bg-white px-2 py-1 rounded-lg shadow"
+          >
+            <img src="/google-logo.png" alt="Google" className="h-4 w-4 object-contain" />
+            {[...Array(5)].map((_, i) => (
+              <Star key={i} size={12} className="text-yellow-400" />
+            ))}
+          </a>
 
           {/* MOBILE MENU ICON */}
           <button
@@ -107,7 +133,7 @@ export function Header() {
         <div
           className={cn(
             "lg:hidden overflow-hidden transition-all",
-            isOpen ? "max-h-[500px] py-4" : "max-h-0"
+            isOpen ? "max-h-[600px] py-4" : "max-h-0"
           )}
         >
           <div className="relative mb-4">
@@ -132,12 +158,29 @@ export function Header() {
             ))}
           </nav>
 
-          <Button
-            className="w-full mt-4 bg-gradient-to-r from-[#6A2FA3] to-[#8B45CC] text-white shadow-lg"
-            asChild
-          >
-            <Link to="/contact">Get Free Quote</Link>
-          </Button>
+          {/* Mobile Buttons inside dropdown */}
+          <div className="flex flex-col gap-2 mt-4 px-4">
+            <Button
+              className="w-full bg-gradient-to-r from-[#6A2FA3] to-[#8B45CC] text-white shadow-lg"
+              asChild
+            >
+              <Link to="/contact">Get Free Quote</Link>
+            </Button>
+
+            <a
+              href="https://share.google/QUZ3caSgzonO6nfct"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 w-full bg-white text-gray-700 px-3 py-2 rounded-lg shadow hover:scale-105 transition-transform"
+            >
+              <img src="/google-logo.png" alt="Google" className="h-5 w-5 object-contain" />
+              <div className="flex items-center gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={16} className="text-yellow-400" />
+                ))}
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </header>
