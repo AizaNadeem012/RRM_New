@@ -11,6 +11,7 @@
 
     <link rel="icon" type="image/png" href="/favicon.png" />
 
+    <!-- Open Graph / Social Meta -->
     <meta property="og:title" content="R.R.M External Cleaning Specialist | North West UK" />
     <meta property="og:description" content="Professional external cleaning services. Pressure washing, roof cleaning, gutter cleaning. Free quotes across North West UK." />
     <meta property="og:type" content="website" />
@@ -18,35 +19,110 @@
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
     <meta property="og:locale" content="en_GB" />
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="R.R.M External Cleaning Specialist" />
     <meta name="twitter:description" content="Professional external cleaning services across North West UK. Free quotes." />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
+    <!-- JSON-LD Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "R.R.M External Cleaning Specialist",
-      "image": "",
-      "telephone": "07845463877",
-      "email": "info@rrmcleaning.co.uk",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "9 Noon Court",
-        "addressLocality": "Newton-le-Willows",
-        "addressRegion": "Merseyside",
-        "addressCountry": "GB"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 53.4500,
-        "longitude": -2.6333
-      },
-      "url": "https://rrmcleaning.co.uk",
-      "openingHours": ["Mo-Fr 08:00-18:00", "Sa 09:00-16:00"],
-      "priceRange": "££",
-      "areaServed": ["Warrington", "Liverpool", "Manchester", "Wigan", "St Helens", "Widnes"]
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.cflcleaning.co.uk/#organization",
+          "name": "RRM External Cleaning Specialist",
+          "url": "https://www.cflcleaning.co.uk/",
+          "telephone": "+447845463877"
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://www.cflcleaning.co.uk/#localbusiness",
+          "name": "RRM External Cleaning Specialist",
+          "url": "https://www.cflcleaning.co.uk/",
+          "telephone": "+447845463877",
+          "priceRange": "££",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "9 Noon Court",
+            "addressLocality": "Newton-le-Willows",
+            "addressRegion": "England",
+            "postalCode": "WA12",
+            "addressCountry": "GB"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.4546,
+            "longitude": -2.6406
+          },
+          "hasMap": "https://share.google/2SmlGkGUj92onnKyH",
+          "areaServed": [
+            { "@type": "Place", "name": "Newton-le-Willows WA12" },
+            { "@type": "Place", "name": "Warrington WA" },
+            { "@type": "Place", "name": "Liverpool L" },
+            { "@type": "Place", "name": "Manchester M" },
+            { "@type": "Place", "name": "Wigan WN" },
+            { "@type": "Place", "name": "St Helens WA" },
+            { "@type": "Place", "name": "Widnes WA" },
+            { "@type": "Place", "name": "Leigh WN" },
+            { "@type": "Place", "name": "Prescot L" }
+          ],
+          "serviceType": [
+            "Pressure Washing",
+            "Power Washing",
+            "External Cleaning",
+            "Driveway Cleaning",
+            "Patio Cleaning",
+            "Roof Cleaning",
+            "Soft Washing",
+            "Gutter Cleaning",
+            "Commercial Exterior Cleaning",
+            "Residential Exterior Cleaning"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.cflcleaning.co.uk/#website",
+          "url": "https://www.cflcleaning.co.uk/",
+          "name": "RRM External Cleaning Specialist",
+          "publisher": { "@id": "https://www.cflcleaning.co.uk/#organization" }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.cflcleaning.co.uk/#external-cleaning-service",
+          "name": "Professional External Cleaning Services",
+          "provider": { "@id": "https://www.cflcleaning.co.uk/#localbusiness" },
+          "areaServed": [
+            { "@type": "Place", "name": "Newton-le-Willows" },
+            { "@type": "AdministrativeArea", "name": "Greater Manchester" },
+            { "@type": "AdministrativeArea", "name": "Merseyside" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.cflcleaning.co.uk/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do you offer external cleaning in Newton-le-Willows?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. RRM External Cleaning Specialist provides professional pressure washing and exterior cleaning services in Newton-le-Willows and surrounding areas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What surfaces do you clean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We clean driveways, patios, roofs, walls, gutters, and all exterior surfaces using safe and professional cleaning methods."
+              }
+            }
+          ]
+        }
+      ]
     }
     </script>
   </head>
