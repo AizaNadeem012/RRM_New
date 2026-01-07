@@ -10,14 +10,14 @@
   2. Service Pages: Main services (High Priority).
   3. Location Hub: /areas-we-serve/ (Medium Priority). This is the ONLY main menu link for all locations.
   4. Location Landing Pages: The main SEO engine. These are "hidden" from the main menu but linked from the hub page.
-     - Level 1: Major Cities (e.g., London, Manchester)
-     - Level 2: Towns/Boroughs within Cities (e.g., Wimbledon, Camden)
-     - Level 3: Postcode-Specific Pages (e.g., SW19, M1) for hyper-local targeting.
+     Level 1: Major Cities (e.g., London, Manchester)
+     Level 2: Towns/Boroughs within Cities (e.g., Wimbledon, Camden)
+     Level 3: Postcode-Specific Pages (e.g., SW19, M1) for hyper-local targeting.
   
   ACTION NEEDED:
-  - Create each page listed below with UNIQUE content.
-  - Upload this file as sitemap.xml to your website's root folder.
-  - Submit to Google Search Console.
+  * Create each page listed below with UNIQUE content.
+  * Upload this file as sitemap.xml to your website's root folder.
+  * Submit to Google Search Console.
   ===================================================================
 -->
 
