@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- 
-  ===================================================================
-  COMPREHENSIVE SITEMAP for cflcleaning.co.uk
-  Goal: Dominate local UK search with 150+ targeted location pages.
-  
-  STRATEGY:
-  1. Core Pages: Homepage, About, Contact (High Priority).
-  2. Service Pages: Main services (High Priority).
-  3. Location Hub: /areas-we-serve/ (Medium Priority). This is the ONLY main menu link for all locations.
-  4. Location Landing Pages: The main SEO engine. These are "hidden" from the main menu but linked from the hub page.
-     Level 1: Major Cities (e.g., London, Manchester)
-     Level 2: Towns/Boroughs within Cities (e.g., Wimbledon, Camden)
-     Level 3: Postcode-Specific Pages (e.g., SW19, M1) for hyper-local targeting.
-  
-  ACTION NEEDED:
-  * Create each page listed below with UNIQUE content.
-  * Upload this file as sitemap.xml to your website's root folder.
-  * Submit to Google Search Console.
-  ===================================================================
--->
 
-  <!-- ======================================================= -->
-  <!-- ============== CORE PAGES (High Priority) ============ -->
-  <!-- ======================================================= -->
+
   <url>
     <loc>https://www.cflcleaning.co.uk/</loc>
     <lastmod>2024-05-21T10:00:00+00:00</lastmod>
@@ -55,9 +33,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- ======================================================= -->
-  <!-- ============== SERVICE PAGES (High Priority) ========= -->
-  <!-- ======================================================= -->
+
   <url>
     <loc>https://www.cflcleaning.co.uk/services/commercial-window-cleaning</loc>
     <lastmod>2024-05-12T16:00:00+00:00</lastmod>
@@ -83,9 +59,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- ======================================================= -->
-  <!-- ========== LOCATION HUB PAGE (The "Hidden" Link) ======= -->
-  <!-- ======================================================= -->
   <url>
     <loc>https://www.cflcleaning.co.uk/areas-we-serve</loc>
     <lastmod>2024-05-21T11:00:00+00:00</lastmod>
@@ -93,18 +66,15 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- ======================================================= -->
-  <!-- ===== LOCATION LANDING PAGES (The 150+ Pages) ======== -->
-  <!-- ======================================================= -->
+
   
-  <!-- --- LONDON & GREATER LONDON (Over 40 pages) --- -->
   <url>
     <loc>https://www.cflcleaning.co.uk/window-cleaning-london</loc>
     <lastmod>2024-05-20T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- South West London -->
+
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-wimbledon-sw19</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-kingston-upon-thames-kt1</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-putney-sw15</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -114,17 +84,17 @@
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-fulham-sw6</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-hammersmith-w6</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-chiswick-w4</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <!-- West London -->
+
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-kensington-w8</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-chelsea-sw3</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-ealing-w5</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-acton-w3</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <!-- North & East London -->
+
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-islington-n1</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-hackney-e5</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-camden-nw1</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-canary-wharf-e14</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <!-- Surrey & Middx (Commuter Belt) -->
+
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-sutton-sm1</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-croydon-cr0</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-purley-cr8</loc><lastmod>2024-05-20T12:05:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -134,7 +104,6 @@
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-woking-gu21</loc><lastmod>2024-05-20T12:40:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-epsom-kt17</loc><lastmod>2024-05-20T12:40:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- --- MANCHESTER & NORTH WEST --- -->
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-manchester</loc><lastmod>2024-05-20T12:10:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-manchester-city-centre-m1</loc><lastmod>2024-05-20T12:15:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-salford-m5</loc><lastmod>2024-05-20T12:15:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -146,7 +115,6 @@
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-liverpool</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-preston-pr1</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- --- MIDLANDS --- -->
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-birmingham</loc><lastmod>2024-05-20T12:20:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-birmingham-city-centre-b1</loc><lastmod>2024-05-20T12:25:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-edgbaston-b15</loc><lastmod>2024-05-20T12:25:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -156,7 +124,6 @@
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-nottingham</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-coventry</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-  <!-- --- SOUTH & SOUTH WEST --- -->
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-bristol</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-clifton-bs8</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-reading-rg1</loc><lastmod>2024-05-20T12:35:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -166,7 +133,6 @@
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-southampton-so14</loc><lastmod>2024-05-20T12:40:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-portsmouth-po1</loc><lastmod>2024-05-20T12:40:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- --- NORTH EAST & SCOTLAND --- -->
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-leeds</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-sheffield</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-newcastle-upon-yne-ne1</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
@@ -174,9 +140,7 @@
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-glasgow-city-centre-g1</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.cflcleaning.co.uk/window-cleaning-edinburgh-eh1</loc><lastmod>2024-05-20T12:30:00+00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-  <!-- ======================================================= -->
-  <!-- ============== LEGAL PAGES (Low Priority) ============ -->
-  <!-- ======================================================= -->
+ 
   <url>
     <loc>https://www.cflcleaning.co.uk/privacy-policy</loc>
     <lastmod>2023-01-05T09:00:00+00:00</lastmod>
